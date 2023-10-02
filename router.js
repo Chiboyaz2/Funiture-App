@@ -13,7 +13,7 @@ const Stack = createStackNavigator();
 function Routers() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="home">
+      <Stack.Navigator initialRouteName="page1">
         {/* Define your app's screens and navigation */}
         <Stack.Screen name="page1" component={Page1} options={{ headerShown: false }}/>
         <Stack.Screen name="page2" component={Page2} options={{ headerShown: false }}/>
